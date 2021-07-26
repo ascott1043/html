@@ -2,34 +2,3 @@ body {
     margin: 10px;
 }
 
-.box {
-    height: 300 px;
-    width: 300 px;
-    box-shadow: 10, 10, rgba(0,0,0,10px);
-    background-color: tomato;
-}
-
-.hf {
-    color:white; 
-}
-
-table {
-    width: 300px;
-    height: 150px;
-    border-collapse: collapse;
-}
-
-thead, tfoot {
-    background-color: #427fef;
-    border: hidden;
-}
-
-tbody tr:nth-child(even) {
-    background-color: #eef7ff;
-}
-
-tbody tr {
- border-width: 2px;
- border-color: #c4dcf3
-}
-
