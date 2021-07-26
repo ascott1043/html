@@ -1,0 +1,48 @@
+body {
+    margin: 10px;
+}
+
+
+/* select element with ID products */
+#products {
+    text-shadow: 100px;
+}
+
+/* select all elements with class="products" */
+.products {
+    text-shadow: 10px;
+}
+
+/* 
+Attribute: 
+<a href="https://www.google.com" target="_blank"> Google </a>
+
+Different ways to select:*/
+
+a[target] {
+    color: orange;
+}
+
+a[href="https://www.google.com"] {
+    color: blue;
+}
+
+/* Contains Google:  href*     */
+a[href*="google"] {
+    color: red;
+}
+
+/* Starts with https:// :   href^ */
+a[href^="https://"] {
+    color: purple;
+}
+
+/* Ends with .com :  href$ */
+a[href$=".com"] {
+    color: green;
+}
+
+/* combination */
+a[href^='https://'][href$=".com"] {
+    color: pink;
+}

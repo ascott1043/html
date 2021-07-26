@@ -1,0 +1,9 @@
+body {
+    margin: 10px;
+}
+
+
+/* section id="products" > selector for all <p> elements in that section */
+#products + p {
+    color:saddlebrown;
+}

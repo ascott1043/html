@@ -1,0 +1,17 @@
+body {
+    margin: 10px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: #02A024;
+    box-shadow: 10px 10px 30px gray;
+    box-shadow: 0 0 30px gray;
+}
+
+h1 {
+    color: white;
+    /* text-shadow: 3px 3px 5px gray; */
+    text-shadow: 3px 3px 5px rbga(0, 0, 0, 0.2);
+}
