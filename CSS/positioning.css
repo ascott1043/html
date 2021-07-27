@@ -1,0 +1,43 @@
+body {
+    margin: 10px;
+    height: 200vh;
+}
+
+.boxes {
+    border: 3px solid lightgray;
+    position: relative;
+}
+
+.box {
+    width: 10rem;
+    height: 10rem;
+}
+
+.box-one {
+    background: gold;
+    left: 2rem;
+    right: 2rem;
+    width: auto;
+}
+
+.box-two {
+    background: tomato;
+    position: relative;
+    left: 5rem;
+    bottom: 3rem;
+    z-index: -1
+}
+
+.box-three {
+    background: dodgerblue;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.box-four {
+    background: green;
+    color: white;
+    position: fixed;
+    top: 0;
+}

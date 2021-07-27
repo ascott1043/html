@@ -1,0 +1,61 @@
+body {
+    margin: 10px;
+}
+
+.container {
+    border: 3px solid lightgray;
+    display: flex;
+
+    flex-direction: column;
+    flex-direction: column-reverse;
+    flex-direction: row-reverse;
+    flex-direction: row;
+    
+    
+    justify-content: space-evenly;
+    justify-content: space-between; 
+    justify-content: center;
+ 
+    align-items: flex-start;
+    align-items: center;
+    align-items: flex-end;
+
+    flex-wrap: wrap;
+    align-content: center;
+    height: 25vh;
+}
+
+.second {
+    border: 3px solid lightgray;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+
+/* If using flex-direction = ROW, main (x) and cross (y) axis switch */
+/* justify-content:     aligns along MAIN axis                       */
+/* align-item:          aligns along CROSS axis                      */
+
+.box, .boxes {
+    flex-basis: 10rem;
+    width: 7rem;
+    height: 5rem;
+    background: gold;
+    margin: 1rem;
+}
+
+.box-one {
+    align-self: flex-start;
+    flex-shrink: 1
+}
+
+.box-two {
+    flex-basis: 5rem;
+    flex-shrink: 0;
+}
+
+.box-three {
+    flex-grow: 1;
+}

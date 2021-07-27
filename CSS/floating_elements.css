@@ -1,0 +1,34 @@
+body {
+    margin: 10px;
+    font-size: 150%;
+}
+
+.tweet {
+    border: 3px solid lightgray;
+}
+
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both
+}
+
+.avatar {
+    width: 5rem;
+    height: 5rem;
+    background-color: gold;
+    float: left;
+    margin-right: 0.5rem;
+}
+
+.rightbox {
+    width: 12rem;
+    height: 7rem;
+    background-color: blue;
+    float: right;
+}
+
+.clear {
+    clear: left;
+    clear: both;
+}

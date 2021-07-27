@@ -1,0 +1,10 @@
+.box {
+    border: 3px solid gold;
+    width: 150px;
+    height: 150px;
+    overflow: visible;
+    overflow: hidden;
+    overflow: scroll;
+    overflow: auto;
+    overflow: hidden auto;
+}

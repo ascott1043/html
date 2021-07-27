@@ -1,0 +1,41 @@
+* {
+    margin-bottom: 30px;
+}
+
+body {
+    margin: 10px;
+    width: 300px;
+}
+
+.px {
+    width: 100px;
+    height: 100px;
+    background-color: gold;
+}
+
+.percent {
+    /* 50% of width of parent element */
+    width: 50%;
+    height: 100px;
+    background-color: green
+}
+
+.viewport {
+    /* spaced based on 'viewport', or browser
+    takes up 50% of width, and 25% of height
+    of browser window */
+    width: 50vw;
+    height: 25vh;
+    background-color: purple
+}
+
+.fontsize{
+    /* Default browser font size is 16 px, resize to 30 */
+    font-size: 30px;
+    /* 10 x the font size of the ROOT element */
+    width: 10rem;
+    /* 10 x the font size of the current element */
+    width: 10em;
+    height: 10vh;
+    background-color: blue;
+}

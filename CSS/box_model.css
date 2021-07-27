@@ -1,0 +1,13 @@
+body {
+    margin:10px;
+}
+
+p {
+    padding: 10px 20px 10px 20px; /*top right bottom left */
+    padding: 10px 20px; /* verticle, horizontal */
+    border: 5px solid goldenrod;
+    margin: 0px;
+}
+
+/* Use padding to separate content from border, and use margin to separate
+one element from another */
