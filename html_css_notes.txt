@@ -1,0 +1,15 @@
+Shortcuts:
+
+# basic html template
+! + tab
+
+# auto create three <li> elements
+li*3 + tab
+
+# auto create an <ol> element with three <li> elements
+ol>li*3 + tab
+
+
+
+
+
